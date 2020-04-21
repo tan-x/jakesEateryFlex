@@ -1,7 +1,5 @@
 html,
 body {
-	display: flex;
-	flex-direction: column;
 	min-height: 100vh;
 	font-size: 16px;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
@@ -61,14 +59,8 @@ a:hover {
 	color: red;
 }
 
-.left {
-}
-
 .center a {
 	margin: 0px 15px;
-}
-
-.right {
 }
 
 .column {
