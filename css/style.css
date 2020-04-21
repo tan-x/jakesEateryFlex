@@ -41,7 +41,7 @@ body > footer {
 	margin: 20px;
 	display: flex;
 	align-items: center;
-	background-image: url('../images/steak.png');
+	background-image: url('images/steak.png');
 	background-repeat: no-repeat;
 	background-size: 100%;
 	overflow: hidden;
@@ -50,7 +50,7 @@ body > footer {
 #meal2 {
 	margin: 20px;
 	display: flex;
-	background-image: url('../images/soup.png');
+	background-image: url('images/soup.png');
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
@@ -59,7 +59,7 @@ body > footer {
 	margin: 20px;
 	display: flex;
 	justify-content: flex-end;
-	background-image: url('../images/cheesecake.png');
+	background-image: url('images/cheesecake.png');
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
@@ -116,4 +116,33 @@ a {
 
 .footer a {
 	margin: 0px 50px;
+}
+
+#orderOnline {
+	background-color: white;
+	border-color: white;
+	margin-left: 50px;
+	font-size: 20px;
+	width: 200px;
+}
+
+#orderOnline:hover {
+	background-color: red;
+	color: white;
+	border-color: red;
+}
+
+#orderNow {
+	background-color: white;
+	border-color: white;
+	margin-right: 50px;
+	font-size: 20px;
+	width: 200px;
+	flex-shrink: 1;
+}
+
+#orderNow:hover {
+	background-color: red;
+	color: white;
+	border-color: red;
 }
